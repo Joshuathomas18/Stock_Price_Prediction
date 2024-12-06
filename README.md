@@ -674,15 +674,5 @@ print("Predicted close price of the next trading day:", round(to_plot_data_y_tes
 ```
 </details>
 
-The red dot in the graph is what our model predicts for IBM's close price on the next trading day. Is the prediction good enough? How about other stocks such as TSLA, APPL, or the hugely popular Gamestop stock (GME)? What about other asset classes such as [forex](https://www.alphavantage.co/documentation/#fx) or [cryptocurrencies](https://www.alphavantage.co/documentation/#digital-currency)? Beyond the close prices, are there any other external data we can feed to the LSTM model to make it even more robust - for example, one of the [50+ technical indicators](https://www.alphavantage.co/documentation/#technical-indicators) from the Alpha Vantage APIs? 
-
-We will now pass the baton to you, our fearless reader! 
-
-**Disclaimer**: This content is for educational purposes only and is NOT investment advice. 
-
-## For Jupyter Notebook Users: 
-
-### Running the codes on Google Colab
-
-Colab is a free hosted Jupyter notebook with access to GPU, you can examine and run the code [here](https://colab.research.google.com/github/jinglescode/time-series-forecasting-pytorch/blob/main/demo-predicting-stock-prices.ipynb).
+The red dot in the graph is what our model predicts for IBM's close price on the next trading day. Is the prediction good enough? How about other stocks such as TSLA, APPL, or the hugely popular Gamestop stock (GME)
 
